@@ -1,5 +1,5 @@
 var w = d3.select('.plot').node().clientWidth,
-    h = d3.select('.plot').node().clientHeight;
+    h = d3.select('.plot').node().clientHeight; 
 
 var timeSeries = d3.timeSeries()
     .width(w)
