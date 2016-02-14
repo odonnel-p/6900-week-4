@@ -112,6 +112,12 @@ d3.timeSeries = function(){
         binSize = _b;
         return this;
     }
+    
+    exports.value = function(_v) {
+        if(!arguments.length) return valAccess;
+        valAccess = _v;
+        return this;
+    }
 
 	return exports;
 }
